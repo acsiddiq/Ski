@@ -1,0 +1,204 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+/********
+  header 
+*********/
+
+  p{
+    font-size: 16px !important;
+  }
+  .header-area {
+  text-align: center;
+  overflow: hidden;
+  }
+  .banner1 {
+  display: table-cell;
+  height: 96vh;
+  vertical-align: middle;
+  padding-left: 0px !important;
+  }
+  .banner1 p {
+    font-size: 18px !important;
+  }
+  .banner1 button {
+  padding: 12px 30px;
+  font-size: 16px;
+  }
+  .navbar-toggler {
+    border: 1px solid #fff !important;
+    color: #fff !important;
+    background: transparent !important;
+  }
+  .navbar-toggler:focus{
+    box-shadow: none !important;
+  }
+  .navbar-nav{
+    background: #fff;
+  }
+  .navbar-nav .nav-link{
+    color: #000000 !important;
+    text-align: left !important;
+  }
+
+/**********
+  content
+***********/
+
+  .content-area {
+    text-align: center !important;
+    overflow: hidden;
+  }
+  .con-text h1 {
+    font-size: 26px;
+  }
+  .con-text p {
+  width: auto !important;
+  font-size: 18px !important;
+  }
+  .prce {
+  padding: 20px 0px;
+ }
+ .prce-body h2 {
+  width: auto;
+  }
+
+/***********************
+  gallery section css
+***********************/
+
+.galler-area{
+    overflow: hidden;
+  }
+
+/**********
+  people
+***********/
+
+  .people-area {
+    overflow: hidden;
+  }
+  .people-text h2 {
+  font-size: 26px;
+  }
+  .people-gal h3 {
+    font-size: 22px;
+  }
+/**********
+  banner-2
+***********/
+
+  .banner2-area {
+  text-align: center;
+  padding: 40px 0px;
+  overflow: hidden;
+  }
+  .banner2-text h2 {
+    font-size: 26px;
+  }
+  .banner2-text p {
+  width: auto;
+  font-size: 16px;
+  }
+  .banner2-hei {
+    height: auto;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .para-none p{
+    display: none !important;
+  }
+  .banner2-bottom {
+  padding-top: 0px !important;
+  }
+  .banner2-bottom h2 {
+  font-size: 36px;
+  }
+
+/*****************
+  testimonials
+*****************/
+  
+  .testimonials-area {
+    overflow: hidden;
+  }
+  .testimonials h1 {
+    font-size: 26px;
+
+  }
+  .testimonials p {
+  font-size: 16px;
+  width: auto;
+  }
+
+/**********
+  contact
+**********/
+  
+  .contact-area{
+    overflow: hidden;
+  }
+  .contact-us h1 {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,303 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		font-family: 'Roboto', sans-serif;
+	}
+/***********************
+	header section css
+***********************/
+
+
+	.header-area {
+		background: url(../image/banner1.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 100vh;
+	}
+	.nav-link {
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		color: #fff !important;
+		padding-left: 25px !important;
+	}
+	.navbar-toggler{
+		background: #87A7C4 !important;
+	}
+	.banner1 {
+		display: table-cell;
+		height: 96vh;
+		vertical-align: middle;
+		padding-left: 62px;
+	}
+	.banner1 p {
+		margin: 0;
+		font-size: 24px;
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+	}
+	.banner1 button {
+		color: #fff;
+		background: #ff690f;
+		border: none;
+		padding: 12px 48px;
+		border-radius: 5px;
+		font-size: 18px;
+		font-family: 'Roboto', sans-serif;
+		margin-top: 38px;
+	}
+	.banner1 button:hover {
+		background: #accf14;
+		transition: 0.5s;
+		transform: translateY(10px);
+	}
+
+/***********************
+	content section css
+***********************/
+
+	.content-area {
+		width: 100%;
+		padding: 80px 0px;
+	}
+	.con-text {
+		text-align: center;
+	}
+	.con-text h1 {
+		font-size: 60px;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+	}
+	.con-text p {
+		width: 70%;
+		margin: 0 auto;
+		font-size: 18px;
+		padding: 30px 0px;
+		color: #8c8383;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+	}
+	.prce {
+		text-align: center;
+	}
+	.prce-body {
+		margin: 30px 0px 20px 0px;
+	}
+	.prce-body p {
+		font-size: 14px;
+		color: #8a8585;
+		margin-bottom: 12px;
+	}
+	.prce-body h2 {
+		width: 55%;
+		font-size: 24px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 600;
+		margin: 0 auto;
+	}
+	.prce-footer button {
+		padding: 8px 19px;
+		font-size: 15px;
+		background: #ff690f;
+		border: none;
+		border-radius: 5px;
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
+	}
+	.prce-footer button:hover {
+		background: #accf14;
+		transition: 0.5s;
+		transform: translateY(10px);
+	}
+	.prce-header-3 {
+		margin-bottom: 43px;
+	}
+
+
+/***********************
+	gallery section css
+***********************/
+
+	.galler-area .col-md-4 {
+		padding: 0;
+	}
+	.long-img img {
+		height: 411px;
+	}
+
+
+/***********************
+	people section css
+***********************/
+
+	.people-area {
+		padding: 80px 0px;
+		width: 100%;
+	}
+	.people-text {
+		text-align: center;
+	}
+	.people-text h2 {
+		font-weight: bold;
+		font-size: 60px;
+		font-family: 'Roboto', sans-serif;
+	}
+	.people-grup {
+		text-align: center;
+	}
+	.people-gal {
+		padding-top: 35px;
+	}
+	.people-gal p {
+		font-size: 14px;
+		margin-top: 35px;
+		color: #7d7979;
+		text-transform: uppercase;
+		font-family: 'Roboto', sans-serif;
+	}
+	.people-gal h3 {
+		font-size: 24px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+
+
+/***********************
+	banner-2 section css
+***********************/
+
+	.banner2-area {
+		background: url(../image/banner2.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: auto;
+	}
+	.banner2-hei {
+		height: 100vh;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.banner2-text h2 {
+		font-size: 60px;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+	}
+	.banner2-text p {
+		width: 60%;
+		font-size: 18px;
+		font-family: 'Roboto', sans-serif;
+		color: #403f3f;
+		font-weight: 300;
+	}
+	.banner2-bottom {
+		padding-top: 30px;
+	}
+	.banner2-bottom h2 {
+		font-size: 64px;
+		color: #ff660d;
+		font-weight: bold;
+	}
+	.banner2-bottom p {
+		font-size: 18px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+	}
+
+
+/**********************************
+	testimonials section css
+**********************************/
+
+	.testimonials-area {
+		padding: 80px 0px;
+		width: 100%;
+	}
+	.testimonials {
+		text-align: center;
+	}
+	.testimonials h1 {
+		font-size: 60px;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+	}
+	.testimonials img {
+		padding: 20px 0px 20px 0px;
+	}
+	.testimonials h3 {
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-family: 'Roboto', sans-serif;
+	}
+	.testimonials p {
+		font-size: 18px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		width: 63%;
+		margin: 0 auto;
+		color: #847a7a;
+	}
+
+
+/**********************************
+	contact section css
+**********************************/
+
+	.contact-area .col-md-4 {
+		padding: 0;
+	}
+	.contact-area .col-md-8 {
+		padding: 0;
+	}
+	.contact-us {
+		background: #2f2f2f;
+		padding: 60px;
+	}
+	.contact-us h1 {
+		color: #fff;
+		font-size: 60px;
+		font-weight: bold;
+		padding-bottom: 20px;
+		font-family: 'Roboto', sans-serif;
+	}
+	.contact-us ul {
+		padding: 0;
+	}
+	.contact-us ul li {
+		list-style: none;
+		display: inline-block;
+		padding-right: 30px;
+		font-size: 22px;
+	}
+	.contact-us ul li i{
+			color: #acaaaa;
+	}
+	.icon i {
+		font-size: 18px;
+		color: #ff600a;
+	}
+
+	.icon p {
+		font-size: 18px;
+		color: #ccc;
+		width: 65%;
+		text-transform: uppercase;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+	}
+	.icon .col-md-11 {
+		padding: 0;
+	}
+	.map {}
+
+	.padd {
+		padding: 0;
+	}
